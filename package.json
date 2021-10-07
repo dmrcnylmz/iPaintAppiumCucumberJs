@@ -1,0 +1,22 @@
+{
+  "name": "cucumberappiumexample",
+  "version": "1.0.0",
+  "description": "cucumberappiumexample",
+  "main": "index.js",
+  "dependencies": {
+    "assert": "2.0.0",
+    "chai": "4.2.0",
+    "cucumber": "6.0.5",
+    "selenium-webdriver": "4.0.0-alpha.7",
+    "wd": "^1.12.1"
+  },
+  "scripts": {
+    "cucumber": "cucumber-js ./Features -r Features/Steps"
+  },
+  "author": "cucumberappiumexample",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  }
+}
